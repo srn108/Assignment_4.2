@@ -1,0 +1,9 @@
+#A Python program using function concept that maps list of words into a list of integers representing the lengths of the corresponding words.
+
+lst3=[]
+def length_of_words(lst3):
+    return list(map(len,lst3))
+  
+lst4=['one','two','three','four','five']
+
+length_of_words(lst4)
